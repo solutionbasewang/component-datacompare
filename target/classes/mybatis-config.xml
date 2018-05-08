@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration  
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"  
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<settings>
+		<setting name="callSettersOnNulls" value="true"/>
+	</settings>
+	<mappers>
+		<mapper resource="mapper/SesToolDatabaseJobVersionMapper.xml"></mapper>
+		<mapper resource="mapper/SesToolDatabaseDatasourceMapper.xml"></mapper>
+		<mapper resource="mapper/SesToolDatabaseJobNodeMapper.xml"></mapper>
+		<mapper resource="mapper/SesToolDatabaseJobPrimarykeyMapper.xml"></mapper>
+		<mapper resource="mapper/SesToolDatabaseSourceLogMapper.xml"></mapper>
+		<mapper resource="mapper/SesToolDatabaseJobPropertyMapper.xml"></mapper>
+		<mapper resource="mapper/SesToolDatabaseJobPropertyruleMapper.xml"></mapper>
+		<mapper resource="mapper/SesToolDatabaseJobPropertyWhereMapper.xml"></mapper>
+		<mapper resource="mapper/SesToolDatabaseSourceLogPropertyMapper.xml"></mapper>
+	</mappers>
+</configuration>
+
